@@ -1,0 +1,24 @@
+{
+  "name": "e5-m6-ejercicio",
+  "version": "1.0.0",
+  "description": "Gestor de Tareas por Consola",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niquel665/E5-M6-Ejercicio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/niquel665/E5-M6-Ejercicio/issues"
+  },
+  "homepage": "https://github.com/niquel665/E5-M6-Ejercicio#readme",
+  "dependencies": {
+    "yargs": "^18.0.0"
+  }
+}
