@@ -17,7 +17,7 @@ yargs(hideBin(process.argv))
       try {
         const tituloClean = argv.titulo.trim();
 
-        // Validación extra  evita títulos vacíos
+        // Validación extra  evita titulos vacios
         if (!tituloClean) {
           throw new Error("El título no puede estar vacío.");
         }
@@ -28,5 +28,4 @@ yargs(hideBin(process.argv))
       }
     },
   })
-  .help() // genera --help automáticamente
   .parse(); // procesa los argumentos
